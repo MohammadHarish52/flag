@@ -1,0 +1,59 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+    padding:0;
+    margin:0;
+}
+.flag{
+    height:60vh;
+    width:60vw;
+}
+.top{
+    height:60px;
+    width:60vw;;
+    background-color: orange;
+}
+.middle{
+    height:60px;
+    width:60vw;
+    background-color: white;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height:60px;
+    position:absolute;
+    width:60px;
+    outline:1px solid rgb(30, 30, 88);
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bottom{
+    height:60px;
+    width:60vw;
+    background-color: green;
+}
+.line{
+    background-color: darkblue;
+    height:100%;
+    width:1px;
+    position: absolute;
+}
+@media screen and (min-width: 768px) {
+    .top,.middle,.bottom {
+        width:40vw;
+        height:80px;
+        /* Your styles for larger screens */
+        /* These styles will apply only when the screen width is 768px or larger */
+    }
+}
+
+
